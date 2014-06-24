@@ -25,7 +25,7 @@ public class MainActivity extends ActionBarActivity implements HTTPCallback{
         setContentView(R.layout.activity_main);
 
         // trigger call
-        AsyncServerCall call = new AsyncServerCall("http://192.168.1.104:8080/backend/characters",this);
+        AsyncServerCall call = new AsyncServerCall("http://10.0.0.5:8080/backend/characters",this);
         call.execute();
     }
 

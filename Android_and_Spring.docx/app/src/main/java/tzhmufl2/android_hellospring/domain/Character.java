@@ -1,8 +1,11 @@
 package tzhmufl2.android_hellospring.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
 /**
  * Created by tzhmufl2 on 15.06.14.
  */
+@JsonIgnoreProperties(ignoreUnknown = true)
 public class Character {
 
     private long id;
